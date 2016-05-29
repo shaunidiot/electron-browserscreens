@@ -1,0 +1,31 @@
+{
+    "name": "electron-browserscreens",
+    "version": "0.0.1",
+    "description": "An electron application to help capture screenshots using multiple browsers.",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shaunidiot/electron-browserscreens.git"
+    },
+    "keywords": [
+        "webshot",
+        "browser",
+        "screenshots"
+    ],
+    "author": "Shaun",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shaunidiot/electron-browserscreens/issues"
+    },
+    "homepage": "https://github.com/shaunidiot/electron-browserscreens#readme",
+    "electronVersion": "1.2.0",
+    "devDependencies": {
+        "jquery": "^2.2.4"
+    },
+    "dependencies": {
+        "fs-extra": "^0.30.0",
+        "lodash": "^4.13.1",
+        "moment": "^2.13.0",
+        "webshot": "^0.18.0"
+    }
+}

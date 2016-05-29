@@ -1,0 +1,5 @@
+- Shows error instead of logging
+- Custom datetime format.
+- Image output format.
+- Shots size
+- JPEG quality

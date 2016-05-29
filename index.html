@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>BrowserScreens</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link rel="stylesheet" href="./css/style.css"></link>
+</head>
+<body>
+	<div class="container">
+
+		<!-- spinner -->
+		<div class="row" id="div_loading_spinner" style="visibility:hidden;">
+			<div class="col s10">
+				<div class="progress">
+					<div id="loading_spinner" class="determinate" style="width: 0%"></div>
+				</div>
+			</div>
+
+			<div class="col s2">
+				<div class="preloader-wrapper small active">
+					<div class="spinner-layer spinner-red-only">
+						<div class="circle-clipper left">
+							<div class="circle"></div>
+						</div><div class="gap-patch">
+							<div class="circle"></div>
+						</div><div class="circle-clipper right">
+							<div class="circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- spinner end -->
+
+		<div class="row">
+			<div class="input-field col s6">
+				<input id="input_url" type="text" class="validate" value="http://google.com">
+				<label for="input_url">URL</label>
+			</div>
+			<div class="col s2">
+				<a id="button_take" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="input-field col s4">
+				<select id="select_screensize">
+					<option value="1">640px</option>
+					<option value="1" selected>800px</option>
+					<option value="1" >1024px</option>
+					<option value="1" >1280px</option>
+					<option value="1" >1440</option>
+					<option value="1">1600px</option>
+				</select>
+				<label>Screen Size</label>
+			</div>
+			<div class="input-field col s4">
+				<input value="0" id="input_renderdelay" type="number" class="validate">
+				<label for="input_renderdelay">Render Delay</label>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="section">
+			<div class="row">
+				<div class="col s4">
+					<div class="row">
+						Chrome
+					</div>
+					<div class="row">
+						<input type="checkbox" id="browser_chrome41" checked="checked"></input>
+						<label for="browser_chrome41">Chrome 41</label>
+					</div>
+					<div class="row">
+						<input type="checkbox" id="browser_chrome40" checked="checked"></input>
+						<label for="browser_chrome40">Chrome 40</label>
+					</div>
+				</div>
+
+				<div class="col s4">
+					<div class="row">
+						Firefox
+					</div>
+					<div class="row">
+						<input type="checkbox" id="browser_firefox40_1" checked="checked"></input>
+						<label for="browser_firefox40_1">Firefox 40.1</label>
+					</div>
+					<div class="row">
+						<input type="checkbox" id="browser_firefox36" checked="checked"></input>
+						<label for="browser_firefox36">Firefox 36</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="./js/hammer.min.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<script src="./js/webshot.js"></script>
+<script src="./js/useragents.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
