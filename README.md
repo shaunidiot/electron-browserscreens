@@ -7,6 +7,8 @@ Few days back (mid May 2016), I was designing a homepage for my website and real
 
 ## Current Features
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shaunidiot/electron-browserscreens.svg)](https://greenkeeper.io/)
+
 - Multiple browser type (more to come)
 - Multiple browser window size
 - Render delay (milliseconds delay before taking screenshots)
